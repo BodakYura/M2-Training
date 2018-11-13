@@ -7,6 +7,9 @@ use Magento\Reports\Model\ResourceModel\Product\Collection;
 
 class TotalPageCountPlugin
 {
+    /**
+     * @var Collection
+     */
     private $productCollection;
 
     public function __construct(Collection $productCollection)
