@@ -1,0 +1,5 @@
+<config>
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="Training_TotalPageCount_Plugin" type="Training\CustomProductAttributes\Plugin\TotalPageCountPlugin" sortOrder="1" disabled="false"/>
+    </type>
+</config>
