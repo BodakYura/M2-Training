@@ -15,29 +15,11 @@ use Magento\Catalog\Model\Product;
 
 class UpgradeData implements UpgradeDataInterface
 {
-    /**
-     * @var AttributeSetFactory
-     */
     private $attributeSetFactory;
-    /**
-     * @var CategorySetupFactory
-     */
     private $categorySetupFactory;
-    /**
-     * @var AttributeSetRepository
-     */
     private $attributeSetRepository;
-    /**
-     * @var AttributeManagementInterface
-     */
     private $attributeManager;
-    /**
-     * @var SearchCriteriaBuilder
-     */
     private $searchCriteriaBuilder;
-    /**
-     * @var Config
-     */
     private $config;
 
     public function __construct(
